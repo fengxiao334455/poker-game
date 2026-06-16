@@ -1,0 +1,39 @@
+.pot-display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.pot-amount {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffd700;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.4);
+  padding: 6px 18px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.pot-message {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 6px;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.3);
+  padding: 4px 12px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.pot-phase {
+  font-size: 13px;
+  color: #90caf9;
+  margin-top: 4px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
